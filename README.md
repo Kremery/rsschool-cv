@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kremery.github.io/rsschool-cv/cv
