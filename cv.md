@@ -30,7 +30,7 @@ function disariumNumber(n){
 ## Work experience:
 [My CV](https://kremery.github.io/rsschool-cv/cv)
 ## Education:
-* Javascript Basics course at *Mate academy*
+* __Javascript Basics__ course at *Mate academy*
 ## Language:
 * __English__ - elementary
 * __Ukrainian__ - native
