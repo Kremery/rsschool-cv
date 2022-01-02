@@ -8,7 +8,7 @@ html {
 }
 
 body{
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   font-family: Roboto, sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -88,32 +88,141 @@ a:hover {
   transition: .7s;
 }
 .section-prof-title {
-  position: relative;
+  /* position: relative; */
+  font-family: Pushster, serif;
   padding: 0;
   margin-bottom: 20px;
   color: #6e0d0d;
-  font-size: 36px;
+  font-size: 54px;
   font-weight: 700;
   letter-spacing: 8px;
+  word-spacing: normal;
   line-height: 50px;
   border-bottom: 5px solid #240f0f6b;
 }
-.prof-item {
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 .section-prof-subtitle {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-/* block main */
+/* section-container */
+.section-container {
+  padding: 15px;
+  display:flex;
+  flex-wrap:wrap;
+}
+.section-container-items {
+  flex: 0 1 50%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #13070759;
+  font-size: 18px;
+}
+.section-contacts {
+}
+.section-contacts-title {
+}
+.section-title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #1f0c8d;
+}
+/* .section-contacts-item {
+  margin-bottom: 5px;
+} */
+.section-container li {
+  margin-bottom: 10px;
+}
+.section-container p {
+  line-height: 24px;
+}
+.contacts-adress {
+}
+.contacts-email {
+}
+.contacts-github {
+}
+.contacts-telegram {
+}
+.contacts-discord {
+}
+.section-about {
+}
+.section-about-title {
+}
+.section-about-text {
+  
+}
+.section-skills {
+}
+.section-skills-title {
+}
+.section-skills-item {
+}
+.section-code {
+}
+.section-code-title {
+}
+.section-courses {
+}
+.section-courses-title {
+}
+.section-courses-item {
+}
+.section-projects {
+}
+.section-projects-title {
+}
+.section-projects-item {
+}
+.section-education {
+  border-bottom: none;
+}
+.section-education-title {
+}
+.section-education-text {
+}
+.section-english {
+  border-bottom: none;
+}
+.section-english-title {
+}
+.section-english-text {
+}
+
+/* block footer */
 .footer {
-  background: rgb(230, 140, 140);
-  border: 1px solid rgb(88, 6, 6);
+  background: rgb(95, 105, 235);
+  padding: 20px;
+  /* border: 1px solid rgb(88, 6, 6); */
   /* height: 100px; */
 }
 
 
+.container {
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  padding: 0 10px;
+}
+.footer-container-item {
+}
+.footer-link-git {
+}
+.link-github {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-link-rss {
+  width: 100px;
+}
 
-
+.logo-rss {
+  width: 100%;  
+}
