@@ -16,6 +16,8 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  line-height: 1.5;
+  color: #000;
 }
 
 .container {
@@ -23,14 +25,19 @@ body{
   margin: 0 auto;
 }
 
-/* .section-item a {
-  color: #829985;
-  text-decoration: none;  
-  transition: color 0.5s;
+/* медиазапросы */
+@media (max-width: 768px) {
+  .section-container-items {
+    flex: 0 1 100%;
+  }
+  .nav-link {
+    font-size: 10px;
+    border: 1px solid #000;
+  }
+  .section-prof-ava {
+    width: 100px;
+    height: 00px;}
 }
-.section-item a:hover {
-  color: #4d2323;
-} */
 
 
 /* block header */
@@ -54,9 +61,10 @@ body{
   font-size: 22px;
   font-weight: 400;
   transition: .9s;
+  
 }
 a:hover {
-  color: blueviolet;
+  color: rgb(73, 226, 43);
 }
 
 /* block main */
@@ -218,6 +226,7 @@ a:hover {
 .link-github {
   text-decoration: none;
   color: #fff;
+  transition: .9s;
 }
 .footer-link-rss {
   width: 100px;
