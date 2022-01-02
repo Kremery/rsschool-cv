@@ -36,6 +36,7 @@ body{
 /* block header */
 .header {
   background: rgb(81, 203, 240);
+  height: auto;
 }
 .nav-list {
   display: flex;
@@ -60,16 +61,57 @@ a:hover {
 
 /* block main */
 .main {
-  height: 50%;
-  border: 1px solid rgb(4, 63, 24);
-  background: rgb(157, 240, 136);
+}
+
+.section {
+}
+.section-prof {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 35px 50px 35px;
+  border-bottom: 10px solid #f1a0a0;
+}
+.section-prof-item {
+  /* flex: 0 1 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.section-prof-ava {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(20, 3, 3, 0.356);
+  transition: .7s;
+}
+.section-prof-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #6e0d0d;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 50px;
+  border-bottom: 5px solid #240f0f6b;
+}
+.prof-item {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.section-prof-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 /* block main */
 .footer {
   background: rgb(230, 140, 140);
   border: 1px solid rgb(88, 6, 6);
-  height: 100px;
+  /* height: 100px; */
 }
 
 
