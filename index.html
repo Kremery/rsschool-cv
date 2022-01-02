@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- шапка сайта -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+      </header>
+  <!-- основной блок -->
+  <main class="main">
+    <div class="container">
+      <!-- profile -->
+      <section class="section section-prof" id="profile">
+        <div class="section-prof-item">
+          <img src="assets/img/ava.jpg" class="section-prof-ava" alt="ava">
+        </div>
+        <div class="section-prof-item">
+          <h1 class="section-prof-title">Iurii KREMER</h1>
+          <h3 class="section-prof-subtitle">junior fronf-end developer</h3>
+        </div>
+      </section>
+
+      <div class="section-container">
+        <!-- contacts -->
+        <section class="section-container-items section-contacts" id="contacts">
+          <h2 class="section-contacts-title section-title">CONTACTS</h2>
+          <ul class="section-contacts">
+            <li class="section-contacts-item contacts-adress"><b>Adress: </b>Kaniv, Ukraine</li>
+            <li class="section-contacts-item contacts-email"><b>Email</b> Kremery74@gmail.com</li>
+            <li class="section-contacts-item contacts-github"><b>GitHub: </b>kremery</li>
+            <li class="section-contacts-item contacts-telegram"><b>Telegram:</b> @kremery</li>
+            <li class="section-contacts-item contacts-discord"><b>Discord:</b> Юрий_К#3306</li>
+          </ul>
+        </section>
+
+        <!-- about -->
+        <section class="section-container-items section-about" id="about">
+          <h2 class="section-about-title section-title">SUMMARY</h2>
+          <p class="section-about-text">I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects. I would like to work under the guidance of an experienced developer to gain practical experience.</p>
+        </section>
+
+        <!-- skills -->
+        <section class="section-container-items section-skills" id="skills">
+          <h2 class="section-skills-title section-title">SKILLS</h2>
+          <ul class="section-skills">
+            <li class="section-skills-item"><b>Web-development:</b> HTML5, CSS3, JavaScript</li>
+            <li class="section-skills-item"><b>Graphics:</b> Figma</li>
+            <li class="section-skills-item"><b>Version control:</b> GIT, Github</li>
+          </ul>
+        </section>
+
+        <!-- code -->
+        <section class="section-container-items section-code" id="code">
+          <h2 class="section-code-title section-title">CODE</h2>
+          <p><code>
+            function checkParent (src, dest) {<Br>
+             while (src != null) {<Br>
+               if (src.tagName == dest) return src<Br>
+                src = src.parentElement<Br>
+             }<Br>
+             return null<Br>
+            }</code></p>
+        </section>
+
+        <!-- courses -->
+        <section class="section-container-items section-courses" id="courses">
+          <h2 class="section-courses-title section-title">COURSES</h2>
+          <ul class="section-courses">
+            <li class="section-courses-item"><b>Hexlet</b> - JavaScript for beginner</li>
+            <li class="section-courses-item"><b>LoftSchool</b> - Comprehensive training JavaScript</li>
+            <li class="section-courses-item"><b>Udemy</b> - Web Development By Doing: HTML / CSS</li>
+          </ul>
+        </section>
+
+        <!-- projects -->
+        <section class="section-container-items section-projects" id="projects">
+          <h2 class="section-projects-title section-title">PROJECTS</h2>
+          <ul class="section-projects">
+            <li class="section-projects-item">Hexal</li>
+            <li class="section-projects-item">Presentation</li>
+            <li class="section-projects-item">Piskel-Clone</li>
+          </ul>
+        </section>
+
+        <!-- education -->
+        <section class="section-container-items section-education" id="education">
+          <h2 class="section-education-title section-title">EDUCATION</h2>
+          <p class="section-education-text">Kyiv National Technical University</p>
+        </section>
+
+        <!-- english -->
+        <section class="section-container-items section-english" id="english">
+          <h2 class="section-english-title section-title">ENGLISH</h2>
+          <p class="section-english-text">B1 - Pre-Intermediate</p>
+        </section>
+
+        <!-- <section class="section" id="about"></section>
+        <section class="section" id="skills"></section> -->
+        <!-- <section class="section" id="code"></section> -->
+        <!-- <section class="section" id="courses"></section> -->
+        <!-- <section class="section" id="projects"></section> -->
+        <!-- <section class="section" id="education"></section> -->
+        <!-- <section class="section" id="english"></section> -->
+      </div>
+    </div>
+  </main>
+
+  <!-- подвал -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-container-item footer-link-git">
+        © 2022
+        <a href="https://github.com/Kremery" class="link-github">kremery</a>
+      </div>
+      <div class="footer-container-item footer-link-rss">
+        <a href="https://app.rs.school/" target="_blank" ><img src="assets/img/logo-rsschool3.png" alt="logo_rss" class="logo-rss"></a>
+      </div>
+    </div>
+      </footer>
+</body>
+</html>
