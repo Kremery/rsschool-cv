@@ -153,6 +153,11 @@ a:hover {
 /* ----------------------------- */
 /* медиазапросы */
 @media (max-width: 768px) {
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
   .section-container-items {
     flex: 0 1 100%;
   }
@@ -191,6 +196,11 @@ a:hover {
 }
 
 @media (max-width: 620px) {
+  .container {
+    max-width: 610px;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
   .header{
     height: 100px;
   }
