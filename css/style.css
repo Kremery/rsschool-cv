@@ -129,9 +129,9 @@ a:hover {
 .section-container li {
   margin-bottom: 10px;
 }
-.section-container p {
+/* .section-container p {
   line-height: 24px;
-}
+} */
 .section-education {
   border-bottom: none;
 }
